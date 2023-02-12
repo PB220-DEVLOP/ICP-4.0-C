@@ -1,0 +1,30 @@
+.discription-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px solid white;
+    background-color: white;
+    text-align:left;
+}
+.discription-element{
+    margin: 10px;
+    height:auto;
+}
+.dis-content{
+    width: 70%;
+}
+.img-dis{
+    height: 400px;
+   margin: 30px;
+}
+.btn-dis{
+    color: aliceblue;
+    background-color: black;
+
+}
+.btn-dis:hover{
+background-color: red;
+}
+.book-name-dis{
+    color: red;
+}
