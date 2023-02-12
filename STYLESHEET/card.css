@@ -1,0 +1,89 @@
+
+
+.books-cards-container {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.box {
+
+    width: 200px;
+    transition: all 0.5s ease-in;
+    margin: 10px;
+    padding: 10px;
+
+    /* apake hisab se margin-top adjust kr */
+    margin-top: 40px;
+
+}
+
+.box:hover {
+    box-shadow: 0px 0px 4px 2px rgb(0, 0, 0);
+    transform: scale(1.2);
+
+}
+
+.img {
+
+    height: 150px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    box-shadow: 0px 0px 2px 1px black;
+
+}
+
+.cards-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 1px 1px gray;
+    font-weight: bolder;
+    transition: all 0.4s ease-in;
+    background-color: black;
+    color: white;
+
+
+}
+
+.cards-btn:hover {
+    background-color: #de0000;
+    color: white;
+    font-weight: bolder;
+
+
+}
+
+.books-titile {
+    margin-top: 10px;
+
+    text-align: center;
+    font-size: 25px;
+}
+
+.heart-symbol {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top:1px ;
+    padding-bottom: 1px;
+    border-radius: 6px;
+
+}
+
+.heart-symbol:hover {
+    display: block;
+    color: #ffffff;
+    background-color: red;
+    border: 1px solid black;
+}

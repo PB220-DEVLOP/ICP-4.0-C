@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.notify-bar-container {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    background-color: #69a5f4;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+.notify-bar-section a {
+    color: #ffffff;
+
+}
+
+
+
+
+
+.navbar-container {
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 0px 4px 1px rgb(235, 227, 227);
+    position: sticky;
+    top: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    align-items: center;
+    background: rgb(59, 225, 32);
+    background: linear-gradient(90deg, rgb(24, 21, 21) 0%, rgb(22, 21, 21) 82%);
+
+}
+
+.navbar-container-section {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+
+}
+
+.navbar-container-section a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.navbar-container-section-search input {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 2px solid tomato;
+    border-right: none;
+    width: 280px;
+    text-align: center;
+
+}
+
+.navbar-container-section-btn {
+    margin: 10px;
+    padding: 10px;
+    /* background-color: aliceblue; */
+    position: relative;
+    left: 84px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid red;
+    border-left: none;
+    background-color: red;
+    color: white;
+
+}
+
+.books-section-container {
+    display: flex;
+    /* background-color: rgb(91, 70, 59); */
+    border-bottom: 2px solid red;
+    width: 100%;
+    height: 55px;
+    justify-content: space-around;
+    /* position: sticky; */
+    top: 0px;
+
+    z-index: 100;
+
+
+}
+
+.books-section {
+
+    margin: 10px;
+    padding: 10px;
+    /* position: relative;  */
+    left: 40%;
+    color: #020101;
+
+    border-bottom: 2px solid black;
+
+
+
+
+}
+
+.books-section:hover {
+    border-bottom: 2px solid black;
+
+}
+
+.header-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-img {
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+
+.main-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img {
+    width: 30%;
+    border-bottom: 1px solid #3d7ed3;
+    position: absolute;
+    left: 60%;
+    filter: drop-shadow(2px 4px 4px #3d7ed3);
+
+}
+
+.img-and-title-container {
+    display: flex;
+}
+
+.main-title-container {
+    background-color: #69a5f4;
+}
