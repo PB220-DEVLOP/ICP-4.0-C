@@ -131,34 +131,3 @@ body {
 color:whitesmoke;
 }
 
-.header-img-container {
-    display: flex;
-    justify-content: center;
-}
-
-.header-img {
-    width: 100%;
-    border-bottom: 1px solid red;
-}
-
-.main-img-container {
-    display: flex;
-    justify-content: center;
-}
-
-.main-img {
-    width: 30%;
-    border-bottom: 1px solid #3d7ed3;
-    position: absolute;
-    left: 60%;
-    filter: drop-shadow(2px 4px 4px #3d7ed3);
-
-}
-
-.img-and-title-container {
-    display: flex;
-}
-
-.main-title-container {
-    background-color: #69a5f4;
-}
