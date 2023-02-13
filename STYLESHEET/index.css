@@ -1,0 +1,41 @@
+.header-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-img {
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+
+
+.img-and-title-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-img-container {
+
+
+}
+
+.main-img {
+
+    filter: drop-shadow(2px 4px 4px #3d7ed3);
+    height: 425px;
+    /* margin-left: 57px; */
+
+}
+
+.main-title-container {
+    /* margin-left: 10px; */
+
+    /* margin-top: 115px; */
+    font-size: 65px;
+    word-spacing: 22px;
+    font-family: none;
+
+}
