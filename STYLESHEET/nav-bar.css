@@ -17,6 +17,10 @@ body {
     padding-bottom: 0px;
 
 }
+::placeholder{
+    color: #000000;
+    word-spacing: 1px;
+}
 
 .notify-bar-section a {
     color: #ffffff;
@@ -55,6 +59,12 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.9s ;
+}
+.navbar-container-section a:hover{
+    background-color: red;
 }
 
 .navbar-container-section-search input {
@@ -74,7 +84,6 @@ body {
 .navbar-container-section-btn {
     margin: 10px;
     padding: 10px;
-    /* background-color: aliceblue; */
     position: relative;
     left: 84px;
     border-bottom-right-radius: 5px;
@@ -83,8 +92,12 @@ body {
     border-left: none;
     background-color: red;
     color: white;
+    transition: all 0.9s ;
 
 }
+.navbar-container-section-btn:hover{
+    font-size: 20px;
+    }
 
 .books-section-container {
     display: flex;
