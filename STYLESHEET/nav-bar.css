@@ -21,10 +21,14 @@ body {
     color: #000000;
     word-spacing: 1px;
 }
-
+.notify-bar-section{
+    background-color: red;
+    box-shadow: 0px 0px 8px 2px black;
+}
 .notify-bar-section a {
-   margin-right: 20px;
     color: #ffffff;
+    text-decoration:none ;
+    
 }
 
 
