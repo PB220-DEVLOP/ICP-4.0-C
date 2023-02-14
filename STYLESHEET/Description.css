@@ -46,3 +46,10 @@ h2{
 .box{
     cursor: pointer;
 }
+.book-name-dis{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(182, 49, 49);
+}
+u{
+    color:rgb(182, 49, 49) ;
+}
