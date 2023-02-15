@@ -20,9 +20,11 @@
 .btn-dis{
     color: aliceblue;
     background-color: black;
+    border-radius: 5px;
 
 }
 .btn-dis:hover{
+    height: 30px;
 background-color: red;
 }
 .book-name-dis{
