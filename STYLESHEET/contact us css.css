@@ -1,0 +1,57 @@
+.input-content {
+    display: flex;
+    width: 500px;
+
+}
+
+
+
+.contact-us {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.contact-info {
+    display: inline-block;
+    position: absolute;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+.button{
+width: 130px;
+}
+.button:hover {
+    height: 30px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.mail-container {
+    display: flex;
+
+
+}
+
+.captcha-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.verifymail-container {
+    margin-left: 30px;
+    width: 120px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.verifymail-container:hover {
+    border-radius: 5px;
+    transition: 3sec;
+    height: 40px;
+
+
+
+}
