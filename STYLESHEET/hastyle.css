@@ -55,8 +55,8 @@ body {
 	bottom: 20px;
 	right: 20px;
 	padding: 10px 25px;
-	background-color: #6b0909;
-	color: white;
+	color:white;
+	background-color: rgb(173, 14, 14); #6b0909
 	cursor: pointer;
 	border-radius: 5px;
 }
@@ -115,6 +115,6 @@ body {
             padding: 15px;
 			line-height: 20px;
             transition: .45s;
-            background-color: #6b0909;
+            background-color: rgb(173, 14, 14);
             color:aliceblue;
 }
