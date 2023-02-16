@@ -118,24 +118,17 @@
 }
 
 .btn {
-    width: 100%;
+    width: 237px;
     height: 40px;
     cursor: pointer;
     border-radius: 5px;
     border: 1px solid black;
     background-color: red;
     transition: all 0.9s ease-in-out;
-
-
-
-}
-
-.btn a {
-    text-decoration: none;
     color: white;
     font-weight: bold;
-}
 
+}
 
 .btn:hover {
     transform: scale(1.03);
