@@ -1,6 +1,5 @@
-
 body {
-	background: #4d3664;
+	background: white;
 }
 .wrapper {
 	max-width: 1000px;
@@ -17,13 +16,16 @@ body {
 .shop {
 	flex: 75%;
 }
+
+
 .box {
 	display: flex;
 	width: 100%;
 	height: 200px;
 	margin-bottom: 20px;
-	background: #bab5f6;
+	background: rgb(211, 208, 208);
 	transition: all .3s ease;
+	box-shadow: 0.5px 0.5px 2.5px 2.5px rgb(105, 105, 105);
 	
 }
 .box:hover {
@@ -34,6 +36,8 @@ body {
 	width: 300px;
 	height: 200px;
 	object-fit: cover;
+	
+	
 }
 .content {
 	padding: 20px;
@@ -51,13 +55,13 @@ body {
 	bottom: 20px;
 	right: 20px;
 	padding: 10px 25px;
-	background-color: #3a71a9;
-	color: white;
+	color:white;
+	background-color: rgb(173, 14, 14); #6b0909
 	cursor: pointer;
 	border-radius: 5px;
 }
 .btn-area:hover {
-	background-color: #76bfb6;
+	background-color: #5b25b3;
 	color: whitesmoke;
 	font-weight: 600;
 }
@@ -75,11 +79,12 @@ body {
 	padding: 20px;
 	height: 400px;
 	border-radius: 5px;
-	background: #bab5f6;
-	
+	background: rgb(211, 208, 208);
+	box-shadow: 0.5px 0.5px 1.5px 1.5px rgb(129, 129, 129);
 }
 .right-bar hr {
 	margin-bottom: 25px;
+	background-color: #5b25b3;
 }
 .right-bar p {
 	display: flex;
@@ -88,17 +93,28 @@ body {
 	font-size: 20px;
 }
 .right-bar a {
-	background-color: #3972a7;
+	background-color: #5b25b3;
 	color: whitesmoke;
 	display: block;
 	text-align: center;
-	height: 40px;
-	line-height: 40px;
-	font-weight: 900;
+	height: 30px;
+	line-height: 30px;
+	font-weight: 900px;
+	border-radius: 35px;
+	font-size:25px;
+	margin-top: 25px;
 }
 .right-bar i {
 	margin-right: 15px;
 }
 .right-bar a:hover {
-	background-color: #76bfb6;
+	
+	box-shadow:0 3px rgb(77, 55, 55) ;
+            transition: 0.8s;
+            border-radius: 25;
+            padding: 15px;
+			line-height: 20px;
+            transition: .45s;
+            background-color: rgb(173, 14, 14);
+            color:aliceblue;
 }
