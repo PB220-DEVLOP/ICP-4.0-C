@@ -1,0 +1,119 @@
+ 
+body{
+    margin:0px;
+    background-color: white;
+}
+
+.image
+{
+height:140px;
+width: 140px;
+border-radius: 50%;
+box-shadow: 0 0 3px 2px rgba(95, 94, 94, 0.767);
+align-items: center;
+border: 0.5px solid rgba(95, 94, 94, 0.767);
+margin-top:20px;
+}
+.cards
+{
+    height: 400px;
+    width:320px;
+    box-shadow: 0 0 4px 3px rgba(95, 94, 94, 0.767);
+    border-radius: 7px;
+    margin: auto;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    margin-top:50px;
+    background-color: white;
+    color: #800000;
+}
+.name
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.social-img
+{
+    height:40px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.social-account li
+{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 17px;
+    box-shadow: 0 0 3px 3px rgba(95, 94, 94, 0.767);
+    height:60px;
+    width: 60px;
+    align-items: center;
+    border-radius: 50px;
+    
+    
+
+}
+.social-account li:hover
+{
+    
+    transition: 0.4s;
+    box-shadow:1px 1px 4px 3px black;
+    
+}
+.cards:hover
+{
+    border-radius: 30px;
+    transition: 0.1s;
+    box-shadow: 1px 1px 4px 3px black;
+}
+.card-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.heading
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: red;
+}
+.info
+{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+.size
+{
+    height:130px;
+    width:130px;
+}
+h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color:red;
+}
+h3{
+   
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+   
+}
+.rtc-img{
+    align-items: center;
+    height:450px;
+   
+    border-radius:10px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
