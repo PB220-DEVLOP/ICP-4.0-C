@@ -39,3 +39,15 @@
     font-family: none;
 
 }
+.slide-cont-img{
+    height: 500px;
+    margin: 50px;
+    border: 2px solid black;
+}
+.slide-holder
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  border: 2px double beige;
+}
