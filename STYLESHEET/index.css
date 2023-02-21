@@ -1,3 +1,9 @@
+*{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Signika', sans-serif;
+
+}
 .header-img-container {
     display: flex;
     justify-content: center;
@@ -17,25 +23,106 @@
     align-items: center;
 }
 
-.main-img-container {
-
-
-}
+.main-img-container {}
 
 .main-img {
-
-    filter: drop-shadow(2px 4px 4px #3d7ed3);
-    height: 425px;
-    /* margin-left: 57px; */
+    /* filter: drop-shadow(2px 4px 4px #3d7ed3); */
+    height: 468px;
+    margin-left: 11%;
+    /* margin-right: 25%; */
+    margin-top: 20px;
 
 }
 
 .main-title-container {
     /* margin-left: 10px; */
 
-    /* margin-top: 115px; */
+    margin-top: 0px;
     font-size: 65px;
     word-spacing: 22px;
     font-family: none;
+    color: red;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 15px;
+}
 
+.main-title-container-home {
+    margin-left: 25%;
+    margin-top: 0px;
+    height: 305px;
+
+
+}
+
+.slide-cont-img {
+    height: 196px;
+    margin: 50px;
+    border: 2px solid black;
+
+}
+
+.slide-holder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px double beige;
+}
+
+.icon-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.icon-container img {
+    height: 70px;
+    cursor: pointer;
+}
+
+.icon-title {
+    font-weight: normal;
+}
+
+.icon-container img:hover {
+    filter: drop-shadow(0px 0px rgb(221, 194, 21));
+}
+
+.h1-container {
+    background-color: rgb(217, 223, 223);
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+
+}
+
+
+.books-cub-container {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.books-cub-box img {
+    margin-top: 10px;
+    background-color: black;
+    height: 400px;
+    box-shadow: 0px 0px 4px 4px gray;
+    border-radius: 12px;
+
+}
+
+.books-cub-box p {
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
 }

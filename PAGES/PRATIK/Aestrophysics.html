@@ -2,11 +2,50 @@
 <html lang="en">
 <head>
     <title>Aestrophysics</title>
-    <link rel="stylesheet" href="./../../STYLESHEET/Description.css">
-    <link rel="stylesheet" href="./../../STYLESHEET/discription.css">
     <link rel="stylesheet" href="./../../STYLESHEET/nav-bar.css">
     <link rel="stylesheet" href="./../../STYLESHEET/card.css">
     <link rel="stylesheet" href="./../../STYLESHEET/footer.css">
+    <style>
+        .discription-container{
+            display: flex;
+        }
+        .discription-element{
+            margin: 80px;
+            width:auto;
+        }
+        .dis-content{
+            width: 70%;
+        }
+        .img-dis{
+            height: 450px;
+            border: 4px solid black;
+        }
+        .book-name-dis{
+            color: red;
+            font-size: 50px;
+        }
+        .price{
+            color: red;
+            font-size: 25px;
+        }
+        .btn-dis{
+            color: black;
+            background-color: red;
+            height: 30px;
+            font-weight: bolder;
+        }
+        .btn-dis:hover{
+            background-color: aliceblue;
+            box-shadow:2px 5px 10px gray;
+            border-radius: 5px;
+        }
+        h2{
+            font-weight: bolder;
+            font-size: 30px;
+            color: red;
+            margin: 50px;
+        }
+    </style>
 </head>
 <body>
     <div class="notify-bar-container">
@@ -18,10 +57,12 @@
     </div>
     <div class="navbar-container">
         <div class="navbar-container-section"><a href="./../../index.html">Home</a></div>
-        <div class="navbar-container-section"><a href="./../GENERAL PAGES/about-us.html">About Us</a></div>
-        <div class="navbar-container-section"><a href="./../GENERAL PAGES/contact-us.html">Contact Us</a></div>
-        <div class="navbar-container-section"><a href="./../GENERAL PAGES/suggestion.html">Suggestion</a></div>
-        <div class="navbar-container-section"><a href="./../GENERAL PAGES/my-ac.html">My Account</a></div>
+        <div class="navbar-container-section"><a href="./../General-Pages/about-us.html">About Us</a></div>
+        <div class="navbar-container-section"><a href="./../General-Pages/contact-us.html">Contact Us</a></div>
+        <div class="navbar-container-section"><a href="./..//General-Pages/suggestion.html">Suggestion</a></div>
+        <div class="navbar-container-section"><a href="./../General-Pages/my-ac.html">My Account</a></div>
+        <div class="navbar-container-section"><a href="./../common-tools/cart.html" style="font-size: 30px;">⛟</a></div>
+
         <div class="navbar-container-section-search"><input type="text" placeholder="search your favorite book"></div>
         <button class="navbar-container-section-btn">Search</button>
     
@@ -78,7 +119,6 @@
                <hr>
                <h3 class="price"> ₹551 </h3>
                <del class="price">₹799</del>
-               st
                <br>
    
                <h4> International Edition </h4>
