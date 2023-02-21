@@ -1,3 +1,9 @@
+*{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Signika', sans-serif;
+
+}
 .input-content {
     display: flex;
     width: 500px;
@@ -13,17 +19,23 @@
 
 .contact-info {
     display: inline-block;
-    position: absolute;
+    
     margin-top: 100px;
     
 
 }
 
-.button{
-width: 130px;
-}
+.button{color: white;
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    font-size: 18px;
+    border-radius: 8px;
+transition: all 0.8s ease-in-out;}
 .button:hover {
-    height: 30px;
+    width: 130px;
+
+    height: 40px;
     cursor: pointer;
     background-color: red;
 }
@@ -43,15 +55,17 @@ width: 130px;
 .verifymail-container {
     margin-left: 30px;
     width: 120px;
-    background-color: red;
+    background-color: black;
+    color: white;
     cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.9s ease-in;
 }
 
 .verifymail-container:hover {
-    border-radius: 5px;
-    transition: 3sec;
-    height: 40px;
-
+background-color: red;
 
 
 }

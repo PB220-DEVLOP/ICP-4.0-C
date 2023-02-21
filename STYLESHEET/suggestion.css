@@ -1,4 +1,9 @@
+*{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Signika', sans-serif;
 
+}
 
 .Suggest-container{
     margin-top: 70px;
@@ -17,7 +22,7 @@
     text-align: center;
     font-weight: bolder;
     color: red;
-    font-style:
+    
 }
 .Suggest-container input{
     width: 600px;
@@ -44,13 +49,14 @@
     outline: 0;
 }
 .Suggest-container button{
-    border:1px solid black;
+    border: 1px solid black;
     padding: 10px 30px;
-    background: white;
+    background: black;
     font-size: 16px;
     border-radius: 6px;
-    color:black;
+    color: white;
     cursor: pointer;
+    transition: all 0.6s ease-in-out;
 }
 .Suggest-container button:hover{
     background-color: red;

@@ -1,7 +1,12 @@
- 
+*{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Signika', sans-serif;
+
+}
 body{
     margin:0px;
-    background-color: white;
+    background-color: beige;
 }
 
 .image
