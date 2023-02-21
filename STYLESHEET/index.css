@@ -24,7 +24,7 @@
 
 .main-img {
 
-    filter: drop-shadow(2px 4px 4px #3d7ed3);
+    /* filter: drop-shadow(2px 4px 4px #3d7ed3); */
     height: 425px;
     /* margin-left: 57px; */
 
@@ -40,9 +40,10 @@
 
 }
 .slide-cont-img{
-    height: 500px;
+    height: 196px;
     margin: 50px;
     border: 2px solid black;
+    
 }
 .slide-holder
 {
@@ -50,4 +51,56 @@
   height: auto;
   display: flex;
   border: 2px double beige;
+}
+.icon-container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.icon-container img {
+    height: 70px;
+    cursor: pointer;
+}
+.icon-title{
+    font-weight: normal;
+}
+.icon-container img:hover{
+    filter: drop-shadow(0px 0px rgb(221, 194, 21));
+}
+.h1-container{
+    background-color: rgb(217, 223, 223);
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+
+}
+
+
+.books-cub-container{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.books-cub-box img{
+    margin-top: 10px;
+background-color: black;
+height: 400px;
+box-shadow: 0px 0px 4px 4px gray;
+border-radius: 12px;
+
+}
+.books-cub-box p{
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
 }

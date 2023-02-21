@@ -1,4 +1,6 @@
-
+* body {
+    background-color: beige;
+}
 
 .books-cards-container {
     display: flex;
@@ -14,14 +16,24 @@
 
     /* apake hisab se margin-top adjust kr */
     margin-top: 40px;
-
-
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 1px rgb(144, 141, 141);
+    border: 0px solid white;
+    height: 360px;
+}
+.box h3{
+    font-size: 22px;
+    text-shadow: 2px 2px 4px #635f5fc7
 }
 
 .box:hover {
-    box-shadow: 0px 0px 4px 2px rgb(0, 0, 0);
-    transform: scale(1.2);
+    box-shadow: 0px 0px 7px 4px rgb(98, 98, 98);
+    /* transform: scale(1.01); */
 
+}
+
+.box a {
+    text-decoration: none;
 }
 
 .img {
@@ -50,6 +62,8 @@
     transition: all 0.4s ease-in;
     background-color: black;
     color: white;
+    height: 40px;
+    width: 50%;
 
 
 }
@@ -76,9 +90,10 @@
     transition: all 0.4s ease-in;
     padding-left: 1px;
     padding-right: 1px;
-    padding-top:1px ;
+    padding-top: 1px;
     padding-bottom: 1px;
     border-radius: 6px;
+    cursor: pointer;
 
 }
 

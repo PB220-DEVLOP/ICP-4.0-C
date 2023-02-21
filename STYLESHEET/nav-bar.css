@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: beige;
 
 
 }
@@ -56,6 +57,7 @@ body {
     padding: 10px;
     position: relative;
     left: 100px;
+    
 
 }
 
@@ -114,6 +116,7 @@ body {
     top: 0px;
 
     z-index: 100;
+    background-color: #ffffff;
 
 
 }

@@ -1,9 +1,13 @@
+*body{
+        background-color: beige;
+    }
+
 .discription-container{
     width: 100%;
     height: auto;
     display: flex;
     border: 2px solid white;
-    background-color: white;
+    background-color: beige;
     text-align:left;
    
 }
